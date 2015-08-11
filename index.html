@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title></title>
+        <title>FalsepridE's D2 Characters</title>
+        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+        <script>
+            $(function () {
+                var c1 = document.getElementById("char1");
+                var ctx1 = c1.getContext("2d");
+                var lightalse = new Image();
+                lightalse.onload = function () {
+                    ctx1.drawImage(this, 0, 0);
+                };
+                c1.onclick = function () {
+                    var inv = document.getElementById("inventory");
+                    var invctx = inv.getContext("2d");
+                    var invimg = new Image();
+                    invimg.src = "/D2 Stream/LightalsE/LightalsEInventory.png"
+                    invctx.drawImage(invimg, 0, 0);
+                };
+                lightalse.src = "/D2 Stream/LightalsE/LightalsE.gif"
+            
+                var c2 = document.getElementById("char2");
+                var ctx2 = c2.getContext("2d");
+                var venalse = new Image();
+                venalse.onload = function () {
+                    ctx2.drawImage(this, 0, 0);
+                };
+                c2.onclick = function () {
+                    var inv = document.getElementById("inventory");
+                    var invctx = inv.getContext("2d");
+                    var invimg = new Image();
+                    invimg.src = "/D2 Stream/VenalsE/VenalsEInventory.png"
+                    invctx.drawImage(invimg, 0, 0);
+                };
+                venalse.src = "/D2 Stream/VenalsE/VenalsE.gif"
+            
+                var c3 = document.getElementById("char3");
+                var ctx3 = c3.getContext("2d");
+                var falsmite = new Image();
+                falsmite.onload = function () {
+                    ctx3.drawImage(this, 0, 0);
+                };
+                c3.onclick = function () {
+                    var inv = document.getElementById("inventory");
+                    var invctx = inv.getContext("2d");
+                    var invimg = new Image();
+                    invimg.src = "/D2 Stream/FalsmitE/FalsmitEInventory.png"
+                    invctx.drawImage(invimg, 0, 0);
+                };
+                falsmite.src = "/D2 Stream/FalsmitE/FalsmitE.gif"
+            });
+        </script>
     </head>
     <body>
-        
+        <div style="width: 500px; margin-left: auto; margin-right: auto">
+            <div style="display: inline-block">
+                <canvas id="char1" width="142" height="142"></canvas>
+            </div>
+            <div style="display: inline-block">
+                <canvas id="char2" width="142" height="142"></canvas>
+            </div>
+            <div style="display: inline-block">
+                <canvas id="char3" width="142" height="142"></canvas>
+            </div>
+        </div>
+        <div style="width: 100%">
+            <canvas id="inventory" width="1370" height="825" style="display: block; margin-left: auto; margin-right: auto"></canvas>
+        </div>
+
+
     </body>
 </html>
