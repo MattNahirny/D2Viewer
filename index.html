@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <meta charset="utf-8" />
         <title>FalsepridE's D2 Characters</title>
         <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
@@ -12,6 +13,9 @@
                 lightalse.onload = function () {
                     ctx1.drawImage(this, 0, 0);
                 };
+                c1.onselectstart = function() {
+                    return false;
+                }
                 c1.onclick = function () {
                     var inv = document.getElementById("inventory");
                     var invctx = inv.getContext("2d");
@@ -25,8 +29,12 @@
                 var ctx2 = c2.getContext("2d");
                 var venalse = new Image();
                 venalse.onload = function () {
+            
                     ctx2.drawImage(this, 0, 0);
                 };
+                c2.onselectstart = function() {
+                    return false;
+                }
                 c2.onclick = function () {
                     var inv = document.getElementById("inventory");
                     var invctx = inv.getContext("2d");
@@ -42,6 +50,9 @@
                 falsmite.onload = function () {
                     ctx3.drawImage(this, 0, 0);
                 };
+                c3.onselectstart = function() {
+                    return false;
+                }
                 c3.onclick = function () {
                     var inv = document.getElementById("inventory");
                     var invctx = inv.getContext("2d");
@@ -66,7 +77,72 @@
             </div>
         </div>
         <div style="width: 100%">
-            <canvas id="inventory" width="1370" height="825" style="display: block; margin-left: auto; margin-right: auto"></canvas>
+            <div id="test" style="position:relative; display: block; width: 1370px; height: 825px; margin-left: auto; margin-right: auto">
+                <div id="herohelm"></div>
+                <div id="heroammy"></div>
+                <div id="herochest"></div>
+                <div id="herowep1"></div>
+                <div id="herowep2"></div>
+                <div id="heroring1"></div>
+                <div id="heroring2"></div>
+                <div id="herobelt"></div>
+                <div id="herogloves"></div>
+                <div id="heroboots"></div>
+
+                <div id="wep1switch1"></div>
+                <div id="wep1switch2"></div>
+                <div id="wep2switch1"></div>
+                <div id="wep2switch2"></div>
+
+                <div id="mercchest"></div>
+                <div id="merchelm"></div>
+                <div id="mercwep1"></div>
+                <div id="mercwep2"></div>
+
+                <div id="inv1"></div>
+                <div id="inv2"></div>
+                <div id="inv3"></div>
+                <div id="inv4"></div>
+                <div id="inv5"></div>
+                <div id="inv6"></div>
+                <div id="inv7"></div>
+                <div id="inv8"></div>
+                <div id="inv9"></div>
+                <div id="inv10"></div>
+                <div id="inv11"></div>
+                <div id="inv12"></div>
+                <div id="inv13"></div>
+                <div id="inv14"></div>
+                <div id="inv15"></div>
+                <div id="inv16"></div>
+                <div id="inv17"></div>
+                <div id="inv18"></div>
+                <div id="inv19"></div>
+                <div id="inv20"></div>
+                <div id="inv21"></div>
+                <div id="inv22"></div>
+                <div id="inv23"></div>
+                <div id="inv24"></div>
+                <div id="inv25"></div>
+                <div id="inv26"></div>
+                <div id="inv27"></div>
+                <div id="inv28"></div>
+                <div id="inv29"></div>
+                <div id="inv30"></div>
+                <div id="inv31"></div>
+                <div id="inv32"></div>
+                <div id="inv33"></div>
+                <div id="inv34"></div>
+                <div id="inv35"></div>
+                <div id="inv36"></div>
+                <div id="inv37"></div>
+                <div id="inv38"></div>
+                <div id="inv39"></div>
+                <div id="inv40"></div>
+
+
+                <canvas id="inventory" width="1370px" height="825px"></canvas>
+            </div>
         </div>
 
 

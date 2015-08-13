@@ -1,0 +1,475 @@
+body {
+    background-color: #A0A0A0;
+}
+
+#herochest {
+    position: absolute;
+    left:  907px;
+    top: 220px;
+    width: 105px;
+    height: 153px;
+}
+
+#herowep1 {
+    position: absolute;
+    left:  710px;
+    top: 175px;
+    width: 115px;
+    height: 195px;
+}
+
+#herowep2 {
+    position: absolute;
+    left:  1105px;
+    top: 175px;
+    width: 115px;
+    height: 195px;
+}
+
+#herohelm {
+    position: absolute;
+    left:  910px;
+    top: 100px;
+    width: 105px;
+    height: 105px;
+}
+
+#heroammy {
+    position: absolute;
+    left:  1030px;
+    top: 145px;
+    width: 60px;
+    height: 60px;
+}
+
+#heroring1 {
+    position: absolute;
+    left:  835px;
+    top: 390px;
+    width: 60px;
+    height: 60px;
+}
+
+#heroring2 {
+    position: absolute;
+    left:  1030px;
+    top: 390px;
+    width: 60px;
+    height: 60px;
+}
+
+#herobelt {
+    position: absolute;
+    left:  910px;
+    top: 390px;
+    width: 110px;
+    height: 60px;
+}
+
+#herogloves {
+    position: absolute;
+    left:  710px;
+    top: 390px;
+    width: 110px;
+    height: 110px;
+}
+
+#heroboots {
+    position: absolute;
+    left:  1105px;
+    top: 390px;
+    width: 110px;
+    height: 110px;
+}
+
+#mercchest {
+    position: absolute;
+    left:  360px;
+    top: 220px;
+    width: 105px;
+    height: 153px;
+}
+
+#merchelm {
+    position: absolute;
+    left:  359px;
+    top: 102px;
+    width: 105px;
+    height: 105px;
+}
+
+#mercwep1 {
+    position: absolute;
+    left:  160px;
+    top: 175px;
+    width: 105px;
+    height: 200px;
+}
+
+#mercwep2 {
+    position: absolute;
+    left:  560px;
+    top: 175px;
+    width: 105px;
+    height: 200px;
+}
+
+#wep1switch1 {
+    position: absolute;
+    left:  710px;
+    top: 140px;
+    width: 55px;
+    height: 35px;
+}
+
+#wep1switch2 {
+    position: absolute;
+    left:  770px;
+    top: 140px;
+    width: 55px;
+    height: 35px;
+}
+
+#wep2switch1 {
+    position: absolute;
+    left:  1105px;
+    top: 140px;
+    width: 55px;
+    height: 35px;
+}
+
+#wep2switch2 {
+    position: absolute;
+    left:  1165px;
+    top: 140px;
+    width: 55px;
+    height: 35px;
+}
+
+
+#inventory {
+    position:  absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+#inv1 {
+    position: absolute;
+    left:  714px;
+    top: 525px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv2 {
+    position: absolute;
+    left:  764px;
+    top: 525px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv3 {
+    position: absolute;
+    left:  814px;
+    top: 525px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv4 {
+    position: absolute;
+    left:  864px;
+    top: 525px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv5 {
+    position: absolute;
+    left:  914px;
+    top: 525px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv6 {
+    position: absolute;
+    left:  964px;
+    top: 525px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv7 {
+    position: absolute;
+    left:  1014px;
+    top: 525px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv8 {
+    position: absolute;
+    left:  1064px;
+    top: 525px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv9 {
+    position: absolute;
+    left:  1114px;
+    top: 525px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv10 {
+    position: absolute;
+    left:  1164px;
+    top: 525px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv11 {
+    position: absolute;
+    left:  714px;
+    top: 575px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv12 {
+    position: absolute;
+    left:  764px;
+    top: 575px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv13 {
+    position: absolute;
+    left:  814px;
+    top: 575px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv14 {
+    position: absolute;
+    left:  864px;
+    top: 575px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv15 {
+    position: absolute;
+    left:  914px;
+    top: 575px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv16 {
+    position: absolute;
+    left:  964px;
+    top: 575px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv17 {
+    position: absolute;
+    left:  1014px;
+    top: 575px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv18 {
+    position: absolute;
+    left:  1064px;
+    top: 575px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv19 {
+    position: absolute;
+    left:  1114px;
+    top: 575px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv20 {
+    position: absolute;
+    left:  1164px;
+    top: 575px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv21 {
+    position: absolute;
+    left:  714px;
+    top: 625px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv22 {
+    position: absolute;
+    left:  764px;
+    top: 625px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv23 {
+    position: absolute;
+    left:  814px;
+    top: 625px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv24 {
+    position: absolute;
+    left:  864px;
+    top: 625px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv25 {
+    position: absolute;
+    left:  914px;
+    top: 625px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv26 {
+    position: absolute;
+    left:  964px;
+    top: 625px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv27 {
+    position: absolute;
+    left:  1014px;
+    top: 625px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv28 {
+    position: absolute;
+    left:  1064px;
+    top: 625px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv29 {
+    position: absolute;
+    left:  1114px;
+    top: 625px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv30 {
+    position: absolute;
+    left:  1164px;
+    top: 625px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv31 {
+    position: absolute;
+    left:  714px;
+    top: 675px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv32 {
+    position: absolute;
+    left:  764px;
+    top: 675px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv33 {
+    position: absolute;
+    left:  814px;
+    top: 675px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv34 {
+    position: absolute;
+    left:  864px;
+    top: 675px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv35 {
+    position: absolute;
+    left:  914px;
+    top: 675px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv36 {
+    position: absolute;
+    left:  964px;
+    top: 675px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv37 {
+    position: absolute;
+    left:  1014px;
+    top: 675px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv38 {
+    position: absolute;
+    left:  1064px;
+    top: 675px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv39 {
+    position: absolute;
+    left:  1114px;
+    top: 675px;
+    width: 50px;
+    height: 50px;
+}
+
+#inv40 {
+    position: absolute;
+    left:  1164px;
+    top: 675px;
+    width: 50px;
+    height: 50px;
+}
