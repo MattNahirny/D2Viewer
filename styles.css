@@ -4,151 +4,187 @@ body {
 
 #herochest {
     position: absolute;
-    left:  907px;
+    left: 907px;
     top: 220px;
     width: 105px;
     height: 153px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #herowep1 {
     position: absolute;
-    left:  710px;
+    left: 710px;
     top: 175px;
     width: 115px;
     height: 195px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #herowep2 {
     position: absolute;
-    left:  1105px;
+    left: 1105px;
     top: 175px;
     width: 115px;
     height: 195px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #herohelm {
     position: absolute;
-    left:  910px;
+    left: 910px;
     top: 100px;
     width: 105px;
     height: 105px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #heroammy {
     position: absolute;
-    left:  1030px;
+    left: 1030px;
     top: 145px;
     width: 60px;
     height: 60px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #heroring1 {
     position: absolute;
-    left:  835px;
+    left: 835px;
     top: 390px;
     width: 60px;
     height: 60px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #heroring2 {
     position: absolute;
-    left:  1030px;
+    left: 1030px;
     top: 390px;
     width: 60px;
     height: 60px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #herobelt {
     position: absolute;
-    left:  910px;
+    left: 910px;
     top: 390px;
     width: 110px;
     height: 60px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #herogloves {
     position: absolute;
-    left:  710px;
+    left: 710px;
     top: 390px;
     width: 110px;
     height: 110px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #heroboots {
     position: absolute;
-    left:  1105px;
+    left: 1105px;
     top: 390px;
     width: 110px;
     height: 110px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #mercchest {
     position: absolute;
-    left:  360px;
+    left: 360px;
     top: 220px;
     width: 105px;
     height: 153px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #merchelm {
     position: absolute;
-    left:  359px;
+    left: 359px;
     top: 102px;
     width: 105px;
     height: 105px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #mercwep1 {
     position: absolute;
-    left:  160px;
+    left: 160px;
     top: 175px;
     width: 105px;
     height: 200px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #mercwep2 {
     position: absolute;
-    left:  560px;
+    left: 560px;
     top: 175px;
     width: 105px;
     height: 200px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #wep1switch1 {
     position: absolute;
-    left:  710px;
+    left: 710px;
     top: 140px;
     width: 55px;
     height: 35px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #wep1switch2 {
     position: absolute;
-    left:  770px;
+    left: 770px;
     top: 140px;
     width: 55px;
     height: 35px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #wep2switch1 {
     position: absolute;
-    left:  1105px;
+    left: 1105px;
     top: 140px;
     width: 55px;
     height: 35px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #wep2switch2 {
     position: absolute;
-    left:  1165px;
+    left: 1165px;
     top: 140px;
     width: 55px;
     height: 35px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 
 #inventory {
-    position:  absolute;
+    position: absolute;
     top: 0px;
     left: 0px;
 }
@@ -156,320 +192,400 @@ body {
 
 #inv1 {
     position: absolute;
-    left:  714px;
+    left: 714px;
     top: 525px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv2 {
     position: absolute;
-    left:  764px;
+    left: 764px;
     top: 525px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv3 {
     position: absolute;
-    left:  814px;
+    left: 814px;
     top: 525px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv4 {
     position: absolute;
-    left:  864px;
+    left: 864px;
     top: 525px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv5 {
     position: absolute;
-    left:  914px;
+    left: 914px;
     top: 525px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv6 {
     position: absolute;
-    left:  964px;
+    left: 964px;
     top: 525px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv7 {
     position: absolute;
-    left:  1014px;
+    left: 1014px;
     top: 525px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv8 {
     position: absolute;
-    left:  1064px;
+    left: 1064px;
     top: 525px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv9 {
     position: absolute;
-    left:  1114px;
+    left: 1114px;
     top: 525px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv10 {
     position: absolute;
-    left:  1164px;
+    left: 1164px;
     top: 525px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv11 {
     position: absolute;
-    left:  714px;
+    left: 714px;
     top: 575px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv12 {
     position: absolute;
-    left:  764px;
+    left: 764px;
     top: 575px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv13 {
     position: absolute;
-    left:  814px;
+    left: 814px;
     top: 575px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv14 {
     position: absolute;
-    left:  864px;
+    left: 864px;
     top: 575px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv15 {
     position: absolute;
-    left:  914px;
+    left: 914px;
     top: 575px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv16 {
     position: absolute;
-    left:  964px;
+    left: 964px;
     top: 575px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv17 {
     position: absolute;
-    left:  1014px;
+    left: 1014px;
     top: 575px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv18 {
     position: absolute;
-    left:  1064px;
+    left: 1064px;
     top: 575px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv19 {
     position: absolute;
-    left:  1114px;
+    left: 1114px;
     top: 575px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv20 {
     position: absolute;
-    left:  1164px;
+    left: 1164px;
     top: 575px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv21 {
     position: absolute;
-    left:  714px;
+    left: 714px;
     top: 625px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv22 {
     position: absolute;
-    left:  764px;
+    left: 764px;
     top: 625px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv23 {
     position: absolute;
-    left:  814px;
+    left: 814px;
     top: 625px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv24 {
     position: absolute;
-    left:  864px;
+    left: 864px;
     top: 625px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv25 {
     position: absolute;
-    left:  914px;
+    left: 914px;
     top: 625px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv26 {
     position: absolute;
-    left:  964px;
+    left: 964px;
     top: 625px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv27 {
     position: absolute;
-    left:  1014px;
+    left: 1014px;
     top: 625px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv28 {
     position: absolute;
-    left:  1064px;
+    left: 1064px;
     top: 625px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv29 {
     position: absolute;
-    left:  1114px;
+    left: 1114px;
     top: 625px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv30 {
     position: absolute;
-    left:  1164px;
+    left: 1164px;
     top: 625px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv31 {
     position: absolute;
-    left:  714px;
+    left: 714px;
     top: 675px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv32 {
     position: absolute;
-    left:  764px;
+    left: 764px;
     top: 675px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv33 {
     position: absolute;
-    left:  814px;
+    left: 814px;
     top: 675px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv34 {
     position: absolute;
-    left:  864px;
+    left: 864px;
     top: 675px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv35 {
     position: absolute;
-    left:  914px;
+    left: 914px;
     top: 675px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv36 {
     position: absolute;
-    left:  964px;
+    left: 964px;
     top: 675px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv37 {
     position: absolute;
-    left:  1014px;
+    left: 1014px;
     top: 675px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv38 {
     position: absolute;
-    left:  1064px;
+    left: 1064px;
     top: 675px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv39 {
     position: absolute;
-    left:  1114px;
+    left: 1114px;
     top: 675px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
 
 #inv40 {
     position: absolute;
-    left:  1164px;
+    left: 1164px;
     top: 675px;
     width: 50px;
     height: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.00);
 }
