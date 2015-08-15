@@ -40,12 +40,8 @@ $(document).ready(function init() {
     VenalsEring2.src = "./D2 Stream/Venalse/GearInfo/heroring2.png";
     var VenalsEboots = new Image();
     VenalsEboots.src = "./D2 Stream/Venalse/GearInfo/heroboots.png";
-    var VenalsEmercwep1 = new Image();
-    VenalsEmercwep1.src = "./D2 Stream/Venalse/GearInfo/mercwep1.png";
-    var VenalsEmerchelm = new Image();
-    VenalsEmerchelm.src = "./D2 Stream/Venalse/GearInfo/merchelm.png";
-    var VenalsEmercarmor = new Image();
-    VenalsEmercarmor.src = "./D2 Stream/Venalse/GearInfo/mercarmor.png";
+    
+    //Venalse Charms
     var VenalsEcharm1 = new Image();
     VenalsEcharm1.src = "./D2 Stream/Venalse/GearInfo/charm1.png";
     var VenalsEcharm2 = new Image();
@@ -58,6 +54,13 @@ $(document).ready(function init() {
     VenalsEcharm5.src = "./D2 Stream/Venalse/GearInfo/charm5.png";
     var VenalsEcharm6 = new Image();
     VenalsEcharm6.src = "./D2 Stream/Venalse/GearInfo/charm6.png";
+    //Venalse Merc
+    var VenalsEmercwep1 = new Image();
+    VenalsEmercwep1.src = "./D2 Stream/Venalse/GearInfo/mercwep1.png";
+    var VenalsEmerchelm = new Image();
+    VenalsEmerchelm.src = "./D2 Stream/Venalse/GearInfo/merchelm.png";
+    var VenalsEmercarmor = new Image();
+    VenalsEmercarmor.src = "./D2 Stream/Venalse/GearInfo/mercarmor.png";
 
     //Section for images at top
     if ($("#char1").length)
@@ -68,6 +71,8 @@ $(document).ready(function init() {
         var ctx3 = $("#char3").get(0).getContext("2d");
 
     $(window).load(function () {
+
+
         ctx1.drawImage(lightalse, 0, 0);
         ctx2.drawImage(venalse, 0, 0);
         ctx3.drawImage(falsmite, 0, 0);
@@ -120,7 +125,13 @@ $(document).ready(function init() {
                     slots = ["heroring2"];
                     setHover(slots, VenalsEring2, invCtx);
                     slots = ["heroboots"];
-                    setHover(slots, VenalsEboots, invCtx);
+                    setHover(slots, VenalsEring2, invCtx);
+                    slots = ["mercwep1"];
+                    setHover(slots, VenalsEmercwep1, invCtx);
+                    slots = ["mercarmor"];
+                    setHover(slots, VenalsEmercarmor, invCtx);
+                    slots = ["merchelm"];
+                    setHover(slots, VenalsEmerchelm, invCtx);
                     slots = ["inv8", "inv18", "inv28"];
                     setHover(slots, VenalsEcharm1, invCtx);
                     slots = ["inv9", "inv19", "inv29"];
