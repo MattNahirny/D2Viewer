@@ -1,7 +1,6 @@
 
 $(document).ready(function init() {
-    if ($("#inventory").length)
-        var invCtx = $("#inventory").get(0).getContext("2d");
+    
 
     //-------------
     //All images go here
@@ -71,7 +70,8 @@ $(document).ready(function init() {
         var ctx3 = $("#char3").get(0).getContext("2d");
 
     $(window).load(function () {
-
+        if ($("#inventory").length)
+        var invCtx = $("#inventory").get(0).getContext("2d");
 
         ctx1.drawImage(lightalse, 0, 0);
         ctx2.drawImage(venalse, 0, 0);
