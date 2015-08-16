@@ -128,7 +128,7 @@ $(document).ready(function init() {
                     slots = ["heroring2"];
                     setHover(slots, VenalsEring2, invCtx);
                     slots = ["heroboots"];
-                    setHover(slots, VenalsEring2, invCtx);
+                    setHover(slots, VenalsEboots, invCtx);
                     slots = ["mercwep1"];
                     setHover(slots, VenalsEmercwep1, invCtx);
                     slots = ["mercarmor"];
