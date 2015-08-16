@@ -4,60 +4,60 @@
 //All images go here
 //-------------
 var LightalsEinvimg = new Image();
-LightalsEinvimg.src = "/D2 Stream/LightalsE/LightalsEInventory.png";
+LightalsEinvimg.src = "./D2 Stream/LightalsE/LightalsEInventory.png";
 var VenalsEinvimg = new Image();
-VenalsEinvimg.src = "/D2 Stream/VenalsE/VenalsEInventory.png"
+VenalsEinvimg.src = "./D2 Stream/VenalsE/VenalsEInventory.png"
 var FalsmitEinvimg = new Image();
-FalsmitEinvimg.src = "/D2 Stream/FalsmitE/FalsmitEInventory.png"
+FalsmitEinvimg.src = "./D2 Stream/FalsmitE/FalsmitEInventory.png"
 var lightalse = new Image();
-lightalse.src = "/D2 Stream/LightalsE/LightalsE.gif";
+lightalse.src = "./D2 Stream/LightalsE/LightalsE.gif";
 var venalse = new Image();
-venalse.src = "/D2 Stream/VenalsE/VenalsE.gif";
+venalse.src = "./D2 Stream/VenalsE/VenalsE.gif";
 var falsmite = new Image();
-falsmite.src = "/D2 Stream/FalsmitE/FalsmitE.gif";
+falsmite.src = "./D2 Stream/FalsmitE/FalsmitE.gif";
 
 //VenalsE gear
 var VenalsEhelm = new Image();
-VenalsEhelm.src = "/D2 Stream/VenalsE/GearInfo/herohelm.png";
+VenalsEhelm.src = "./D2 Stream/VenalsE/GearInfo/herohelm.png";
 var VenalsEammy = new Image();
-VenalsEammy.src = "/D2 Stream/VenalsE/GearInfo/heroammy.png";
+VenalsEammy.src = "./D2 Stream/VenalsE/GearInfo/heroammy.png";
 var VenalsEwep1 = new Image();
-VenalsEwep1.src = "/D2 Stream/VenalsE/GearInfo/herowep1.png";
+VenalsEwep1.src = "./D2 Stream/VenalsE/GearInfo/herowep1.png";
 var VenalsEarmor = new Image();
-VenalsEarmor.src = "/D2 Stream/VenalsE/GearInfo/heroarmor.png";
+VenalsEarmor.src = "./D2 Stream/VenalsE/GearInfo/heroarmor.png";
 var VenalsEwep2 = new Image();
-VenalsEwep2.src = "/D2 Stream/VenalsE/GearInfo/herowep2.png";
+VenalsEwep2.src = "./D2 Stream/VenalsE/GearInfo/herowep2.png";
 var VenalsEgloves = new Image();
-VenalsEgloves.src = "/D2 Stream/VenalsE/GearInfo/herogloves.png";
+VenalsEgloves.src = "./D2 Stream/VenalsE/GearInfo/herogloves.png";
 var VenalsEring1 = new Image();
-VenalsEring1.src = "/D2 Stream/VenalsE/GearInfo/heroring1.png";
+VenalsEring1.src = "./D2 Stream/VenalsE/GearInfo/heroring1.png";
 var VenalsEbelt = new Image();
-VenalsEbelt.src = "/D2 Stream/VenalsE/GearInfo/herobelt.png";
+VenalsEbelt.src = "./D2 Stream/VenalsE/GearInfo/herobelt.png";
 var VenalsEring2 = new Image();
-VenalsEring2.src = "/D2 Stream/VenalsE/GearInfo/heroring2.png";
+VenalsEring2.src = "./D2 Stream/VenalsE/GearInfo/heroring2.png";
 var VenalsEboots = new Image();
-VenalsEboots.src = "/D2 Stream/VenalsE/GearInfo/heroboots.png";
+VenalsEboots.src = "./D2 Stream/VenalsE/GearInfo/heroboots.png";
 
 //Venalse Charms
 var VenalsEcharm1 = new Image();
-VenalsEcharm1.src = "/D2 Stream/VenalsE/GearInfo/charm1.png";
+VenalsEcharm1.src = "./D2 Stream/VenalsE/GearInfo/charm1.png";
 var VenalsEcharm2 = new Image();
-VenalsEcharm2.src = "/D2 Stream/VenalsE/GearInfo/charm2.png";
+VenalsEcharm2.src = "./D2 Stream/VenalsE/GearInfo/charm2.png";
 var VenalsEcharm3 = new Image();
-VenalsEcharm3.src = "/D2 Stream/VenalsE/GearInfo/charm3.png";
+VenalsEcharm3.src = "./D2 Stream/VenalsE/GearInfo/charm3.png";
 var VenalsEcharm4 = new Image();
-VenalsEcharm4.src = "/D2 Stream/VenalsE/GearInfo/charm4.png";
+VenalsEcharm4.src = "./D2 Stream/VenalsE/GearInfo/charm4.png";
 var VenalsEcharm5 = new Image();
-VenalsEcharm5.src = "/D2 Stream/VenalsE/GearInfo/charm5.png";
+VenalsEcharm5.src = "./D2 Stream/VenalsE/GearInfo/charm5.png";
 var VenalsEcharm6 = new Image();
-VenalsEcharm6.src = "/D2 Stream/VenalsE/GearInfo/charm6.png";
+VenalsEcharm6.src = "./D2 Stream/VenalsE/GearInfo/charm6.png";
 //Venalse Merc
 var VenalsEmercwep1 = new Image();
-VenalsEmercwep1.src = "/D2 Stream/VenalsE/GearInfo/mercwep1.png";
+VenalsEmercwep1.src = "./D2 Stream/VenalsE/GearInfo/mercwep1.png";
 var VenalsEmerchelm = new Image();
-VenalsEmerchelm.src = "/D2 Stream/VenalsE/GearInfo/merchelm.png";
+VenalsEmerchelm.src = "./D2 Stream/VenalsE/GearInfo/merchelm.png";
 var VenalsEmercarmor = new Image();
-VenalsEmercarmor.src = "/D2 Stream/VenalsE/GearInfo/mercarmor.png";
+VenalsEmercarmor.src = "./D2 Stream/VenalsE/GearInfo/mercarmor.png";
 
 $(document).ready(function init() {
 
