@@ -173,14 +173,16 @@ function getWhichChar() {
 }
 
 function setHover(slots, image, ctx) {
-    for (var i = 0; i < slots.length; i++) {
-        $("#" + slots[i]).mouseover(function () {
-            ctx.drawImage(image, $("#inventory").width()/4, 100);
-        });
-        $("#" + slots[i]).mouseout(function () {
-            removeInfo(ctx, getWhichChar());
-        });
-    }
+    $(document).ready(function () {
+        for (var i = 0; i < slots.length; i++) {
+            $("#" + slots[i]).mouseover(function () {
+                ctx.drawImage(image, $("#inventory").width() / 4, 100);
+            });
+            $("#" + slots[i]).mouseout(function () {
+                removeInfo(ctx, getWhichChar());
+            });
+        }
+    });
 };
 
 
