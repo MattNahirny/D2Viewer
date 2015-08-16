@@ -1,66 +1,68 @@
 
+
+//-------------
+//All images go here
+//-------------
+var LightalsEinvimg = new Image();
+LightalsEinvimg.src = "/D2 Stream/LightalsE/LightalsEInventory.png";
+var VenalsEinvimg = new Image();
+VenalsEinvimg.src = "/D2 Stream/VenalsE/VenalsEInventory.png"
+var FalsmitEinvimg = new Image();
+FalsmitEinvimg.src = "/D2 Stream/FalsmitE/FalsmitEInventory.png"
+var lightalse = new Image();
+lightalse.src = "/D2 Stream/LightalsE/LightalsE.gif";
+var venalse = new Image();
+venalse.src = "/D2 Stream/VenalsE/VenalsE.gif";
+var falsmite = new Image();
+falsmite.src = "/D2 Stream/FalsmitE/FalsmitE.gif";
+
+//VenalsE gear
+var VenalsEhelm = new Image();
+VenalsEhelm.src = "/D2 Stream/VenalsE/GearInfo/herohelm.png";
+var VenalsEammy = new Image();
+VenalsEammy.src = "/D2 Stream/VenalsE/GearInfo/heroammy.png";
+var VenalsEwep1 = new Image();
+VenalsEwep1.src = "/D2 Stream/VenalsE/GearInfo/herowep1.png";
+var VenalsEarmor = new Image();
+VenalsEarmor.src = "/D2 Stream/VenalsE/GearInfo/heroarmor.png";
+var VenalsEwep2 = new Image();
+VenalsEwep2.src = "/D2 Stream/VenalsE/GearInfo/herowep2.png";
+var VenalsEgloves = new Image();
+VenalsEgloves.src = "/D2 Stream/VenalsE/GearInfo/herogloves.png";
+var VenalsEring1 = new Image();
+VenalsEring1.src = "/D2 Stream/VenalsE/GearInfo/heroring1.png";
+var VenalsEbelt = new Image();
+VenalsEbelt.src = "/D2 Stream/VenalsE/GearInfo/herobelt.png";
+var VenalsEring2 = new Image();
+VenalsEring2.src = "/D2 Stream/VenalsE/GearInfo/heroring2.png";
+var VenalsEboots = new Image();
+VenalsEboots.src = "/D2 Stream/VenalsE/GearInfo/heroboots.png";
+
+//Venalse Charms
+var VenalsEcharm1 = new Image();
+VenalsEcharm1.src = "/D2 Stream/VenalsE/GearInfo/charm1.png";
+var VenalsEcharm2 = new Image();
+VenalsEcharm2.src = "/D2 Stream/VenalsE/GearInfo/charm2.png";
+var VenalsEcharm3 = new Image();
+VenalsEcharm3.src = "/D2 Stream/VenalsE/GearInfo/charm3.png";
+var VenalsEcharm4 = new Image();
+VenalsEcharm4.src = "/D2 Stream/VenalsE/GearInfo/charm4.png";
+var VenalsEcharm5 = new Image();
+VenalsEcharm5.src = "/D2 Stream/VenalsE/GearInfo/charm5.png";
+var VenalsEcharm6 = new Image();
+VenalsEcharm6.src = "/D2 Stream/VenalsE/GearInfo/charm6.png";
+//Venalse Merc
+var VenalsEmercwep1 = new Image();
+VenalsEmercwep1.src = "/D2 Stream/VenalsE/GearInfo/mercwep1.png";
+var VenalsEmerchelm = new Image();
+VenalsEmerchelm.src = "/D2 Stream/VenalsE/GearInfo/merchelm.png";
+var VenalsEmercarmor = new Image();
+VenalsEmercarmor.src = "/D2 Stream/VenalsE/GearInfo/mercarmor.png";
+
 $(document).ready(function init() {
-    if ($("#inventory").length)
-        var invCtx = $("#inventory").get(0).getContext("2d");
 
-    //-------------
-    //All images go here
-    //-------------
-    var LightalsEinvimg = new Image();
-    LightalsEinvimg.src = "./D2 Stream/LightalsE/LightalsEInventory.png";
-    var VenalsEinvimg = new Image();
-    VenalsEinvimg.src = "./D2 Stream/VenalsE/VenalsEInventory.png"
-    var FalsmitEinvimg = new Image();
-    FalsmitEinvimg.src = "./D2 Stream/FalsmitE/FalsmitEInventory.png"
-    var lightalse = new Image();
-    lightalse.src = "./D2 Stream/LightalsE/LightalsE.gif";
-    var venalse = new Image();
-    venalse.src = "./D2 Stream/VenalsE/VenalsE.gif";
-    var falsmite = new Image();
-    falsmite.src = "./D2 Stream/FalsmitE/FalsmitE.gif";
 
-    //VenalsE gear
-    var VenalsEhelm = new Image();
-    VenalsEhelm.src = "./D2 Stream/Venalse/GearInfo/herohelm.png";
-    var VenalsEammy = new Image();
-    VenalsEammy.src = "./D2 Stream/Venalse/GearInfo/heroammy.png";
-    var VenalsEwep1 = new Image();
-    VenalsEwep1.src = "./D2 Stream/Venalse/GearInfo/herowep1.png";
-    var VenalsEarmor = new Image();
-    VenalsEarmor.src = "./D2 Stream/Venalse/GearInfo/heroarmor.png";
-    var VenalsEwep2 = new Image();
-    VenalsEwep2.src = "./D2 Stream/Venalse/GearInfo/herowep2.png";
-    var VenalsEgloves = new Image();
-    VenalsEgloves.src = "./D2 Stream/Venalse/GearInfo/herogloves.png";
-    var VenalsEring1 = new Image();
-    VenalsEring1.src = "./D2 Stream/Venalse/GearInfo/heroring1.png";
-    var VenalsEbelt = new Image();
-    VenalsEbelt.src = "./D2 Stream/Venalse/GearInfo/herobelt.png";
-    var VenalsEring2 = new Image();
-    VenalsEring2.src = "./D2 Stream/Venalse/GearInfo/heroring2.png";
-    var VenalsEboots = new Image();
-    VenalsEboots.src = "./D2 Stream/Venalse/GearInfo/heroboots.png";
-    
-    //Venalse Charms
-    var VenalsEcharm1 = new Image();
-    VenalsEcharm1.src = "./D2 Stream/Venalse/GearInfo/charm1.png";
-    var VenalsEcharm2 = new Image();
-    VenalsEcharm2.src = "./D2 Stream/Venalse/GearInfo/charm2.png";
-    var VenalsEcharm3 = new Image();
-    VenalsEcharm3.src = "./D2 Stream/Venalse/GearInfo/charm3.png";
-    var VenalsEcharm4 = new Image();
-    VenalsEcharm4.src = "./D2 Stream/Venalse/GearInfo/charm4.png";
-    var VenalsEcharm5 = new Image();
-    VenalsEcharm5.src = "./D2 Stream/Venalse/GearInfo/charm5.png";
-    var VenalsEcharm6 = new Image();
-    VenalsEcharm6.src = "./D2 Stream/Venalse/GearInfo/charm6.png";
-    //Venalse Merc
-    var VenalsEmercwep1 = new Image();
-    VenalsEmercwep1.src = "./D2 Stream/Venalse/GearInfo/mercwep1.png";
-    var VenalsEmerchelm = new Image();
-    VenalsEmerchelm.src = "./D2 Stream/Venalse/GearInfo/merchelm.png";
-    var VenalsEmercarmor = new Image();
-    VenalsEmercarmor.src = "./D2 Stream/Venalse/GearInfo/mercarmor.png";
+
 
     //Section for images at top
     if ($("#char1").length)
@@ -71,7 +73,8 @@ $(document).ready(function init() {
         var ctx3 = $("#char3").get(0).getContext("2d");
 
     $(window).load(function () {
-
+        if ($("#inventory").length)
+            var invCtx = $("#inventory").get(0).getContext("2d");
 
         ctx1.drawImage(lightalse, 0, 0);
         ctx2.drawImage(venalse, 0, 0);
@@ -173,14 +176,16 @@ function getWhichChar() {
 }
 
 function setHover(slots, image, ctx) {
-    for (var i = 0; i < slots.length; i++) {
-        $("#" + slots[i]).mouseover(function () {
-            ctx.drawImage(image, $("#inventory").width()/4, 100);
-        });
-        $("#" + slots[i]).mouseout(function () {
-            removeInfo(ctx, getWhichChar());
-        });
-    }
+    $(document).ready(function () {
+        for (var i = 0; i < slots.length; i++) {
+            $("#" + slots[i]).mouseover(function () {
+                ctx.drawImage(image, $("#inventory").width() / 4, 100);
+            });
+            $("#" + slots[i]).mouseout(function () {
+                removeInfo(ctx, getWhichChar());
+            });
+        }
+    });
 };
 
 
