@@ -17,7 +17,7 @@ falsmite.src = "./D2 Stream/FalsmitE/FalsmitE.gif";
 
 //VenalsE gear
 var VenalsEhelm = new Image();
-VenalsEhelm.src = "./D2 Stream/Venalse/GearInfo/herohelm.png";
+VenalsEhelm.src = "../D2 Stream/Venalse/GearInfo/herohelm.png";
 var VenalsEammy = new Image();
 VenalsEammy.src = "./D2 Stream/Venalse/GearInfo/heroammy.png";
 var VenalsEwep1 = new Image();
