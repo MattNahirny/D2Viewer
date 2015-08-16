@@ -1,6 +1,6 @@
 
 $(document).ready(function init() {
-    
+
 
     //-------------
     //All images go here
@@ -39,7 +39,7 @@ $(document).ready(function init() {
     VenalsEring2.src = "./D2 Stream/Venalse/GearInfo/heroring2.png";
     var VenalsEboots = new Image();
     VenalsEboots.src = "./D2 Stream/Venalse/GearInfo/heroboots.png";
-    
+
     //Venalse Charms
     var VenalsEcharm1 = new Image();
     VenalsEcharm1.src = "./D2 Stream/Venalse/GearInfo/charm1.png";
@@ -71,7 +71,7 @@ $(document).ready(function init() {
 
     $(window).load(function () {
         if ($("#inventory").length)
-        var invCtx = $("#inventory").get(0).getContext("2d");
+            var invCtx = $("#inventory").get(0).getContext("2d");
 
         ctx1.drawImage(lightalse, 0, 0);
         ctx2.drawImage(venalse, 0, 0);
