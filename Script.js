@@ -83,6 +83,7 @@ $(document).ready(function init() {
 
         $("#char1").click(function () {
             $("#heroSelectText").text("LightalsE");
+            clearCharInfo();
             invCtx.drawImage(LightalsEinvimg, 0, 0);
             setAllHovers(getWhichChar());
 
@@ -188,8 +189,7 @@ function setHover(slots, image, ctx) {
     });
 };
 
-
-function removeInfo(ctx, view) {
+function clearCharInfo() {
     var allslots = ["herohelm", "heroammy", "herowep1", "heroarmor",
      "herowep2", "herogloves", "heroring1", "herobelt", "heroring2",
       "heroboots", "mercwep1", "mercarmor", "merchelm", 
@@ -199,6 +199,12 @@ function removeInfo(ctx, view) {
       "inv25", "inv26", "inv27", "inv28", "inv29", "inv30", "inv31", "inv32", 
       "inv33", "inv34", "inv35", "inv36", "inv37", "inv38", "inv39", "inv40"];
 
+      for (var i = 0; i < allslots.length; i++) {
+        $("#" + allslots[i]).unbind("mouseover mouseout");
+      };
+}
+
+function removeInfo(ctx, view) {
     ctx.clearRect(0, 0, $("#inventory").width, $("#inventory").height);
     switch (view) {
         case "LightalsE":
@@ -220,8 +226,6 @@ function removeInfo(ctx, view) {
             break;
     }
 
-    for (var i = 0; i < allslots.length; i++) {
-        $("#" + allslots[i]).unbind("mouseover mouseout");
-    };
+    
     ctx.restore();
 };
