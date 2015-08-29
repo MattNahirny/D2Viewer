@@ -51,6 +51,17 @@ var VenalsEcharm5 = new Image();
 VenalsEcharm5.src = "./D2 Stream/VenalsE/GearInfo/charm5.png";
 var VenalsEcharm6 = new Image();
 VenalsEcharm6.src = "./D2 Stream/VenalsE/GearInfo/charm6.png";
+var VenalsEcharm7 = new Image();
+VenalsEcharm7.src = "./D2 Stream/VenalsE/GearInfo/charm7.png";
+var VenalsEcharm8 = new Image();
+VenalsEcharm8.src = "./D2 Stream/VenalsE/GearInfo/charm8.png";
+var VenalsEcharm9 = new Image();
+VenalsEcharm9.src = "./D2 Stream/VenalsE/GearInfo/charm9.png";
+var VenalsEcharm10 = new Image();
+VenalsEcharm10.src = "./D2 Stream/VenalsE/GearInfo/charm10.png";
+var VenalsEcharm11 = new Image();
+VenalsEcharm11.src = "./D2 Stream/VenalsE/GearInfo/charm11.png";
+
 //Venalse Merc
 var VenalsEmercwep1 = new Image();
 VenalsEmercwep1.src = "./D2 Stream/VenalsE/GearInfo/mercwep1.png";
@@ -258,18 +269,32 @@ $(document).ready(function init() {
                     setHover(slots, VenalsEmercarmor, invCtx);
                     slots = ["merchelm"];
                     setHover(slots, VenalsEmerchelm, invCtx);
-                    slots = ["inv8", "inv18", "inv28"];
+                    slots = ["inv7"];
                     setHover(slots, VenalsEcharm1, invCtx);
-                    slots = ["inv9", "inv19", "inv29"];
+                    slots = ["inv8", "inv18", "inv28"];
                     setHover(slots, VenalsEcharm2, invCtx);
-                    slots = ["inv10"];
+                    slots = ["inv9", "inv19", "inv29"];
                     setHover(slots, VenalsEcharm3, invCtx);
-                    slots = ["inv20"];
+                    slots = ["inv10"];
                     setHover(slots, VenalsEcharm4, invCtx);
-                    slots = ["inv30", "inv40"];
+                    slots = ["inv17"];
                     setHover(slots, VenalsEcharm5, invCtx);
-                    slots = ["inv38"];
+                    slots = ["inv20"];
                     setHover(slots, VenalsEcharm6, invCtx);
+                    slots = ["inv27"];
+                    setHover(slots, VenalsEcharm7, invCtx);
+                    slots = ["inv30", "inv40"];
+                    setHover(slots, VenalsEcharm8, invCtx);
+                    slots = ["inv37"];
+                    setHover(slots, VenalsEcharm9, invCtx);
+                    slots = ["inv38"];
+                    setHover(slots, VenalsEcharm10, invCtx);
+                    slots = ["inv39"];
+                    setHover(slots, VenalsEcharm11, invCtx);
+
+
+
+
                     break;
                 case "FalsmitE":
 
